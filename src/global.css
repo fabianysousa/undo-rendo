@@ -1,0 +1,13 @@
+:root {
+  --gray-100: #e1e1e6;
+  --gray-400: #8d8d99;
+  --gray-600: #323238;
+
+  --coral-100: #FF7F50;
+  --coral-300: #F08080;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--coral-300);
+}

@@ -1,0 +1,48 @@
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.buttonUndo {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid var(--coral-100);
+  background: var(--coral-300) ;
+  width: 100px;
+  height: 50px;
+  color: var(--gray-100);
+  transition-duration: 0.4s;
+}
+
+.buttonUndo:hover {
+  border: 1px solid var(--coral-300);
+  background: var(--coral-100);
+}
+
+.buttonRendo {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid var(--coral-100);
+  background: var(--coral-300);
+  width: 100px;
+  height: 50px;
+  color: var(--gray-100);
+  transition-duration: 0.4s;
+}
+
+.buttonRendo:hover {
+  border: 1px solid var(--coral-300);
+  background: var(--coral-100);
+}
+
+.circle {
+  background: pink;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
