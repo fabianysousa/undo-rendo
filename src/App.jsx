@@ -3,7 +3,8 @@ import './global.css';
 
 function App() {
   return (
-    <div className={styles.app} onClick={createCircle}>
+    <div className={styles.app}>
+    {/* <div className={styles.app} onClick={createCircle}> */}
       <div>
         <button className={styles.buttonUndo}>Undo</button>
       </div>
